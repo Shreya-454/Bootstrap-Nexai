@@ -902,6 +902,9 @@ top: -5%;
 .pt-156{
   padding-top: 156px;
 }
+.pt-10{
+  padding-top: 10px;
+}
 }
 @media (min-width:1300px) {
   .translate-x-25{
