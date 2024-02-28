@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@font-face {
+  font-family: "Recharge";
+  src: url(/assets/fonts/recharge\ bd.otf);
+}
+
+:root {
+  /* font-size */
+  --fs-base: 14px;
+  --fs-lg: 16px;
+  --fs-xl: 18px;
+  --fs-2xl: 20px;
+  --fs-3xl: 24px;
+  --fs-4xl: 30px;
+  --fs-5xl: 40px;
+  /* colors */
+  --bs-black: #040404;
+  --bs-green: #02cdcf;
+  --bs-textblack: #0b0a0a;
+  --bs-borderwhite:#FCFCFC;
+  --bs-cardborder:#FCFCFC66;
+  --bs-cardshadow:#0000001A;
+  --bs-white:white;
+  --bs-offwhite:#FCFCFC;
+}
+.text-16{
+    font-size: var(--fs-base);
+}
+.text-18{
+    font-size: var(--fs-lg);
+}
+.text-20{
+    font-size: var(--fs-xl);
+}
+.text-24{
+    font-size: var(--fs-2xl);
+}
+.text-32{
+    font-size: var(--fs-3xl);
+}
+.text-40{
+    font-size: var(--fs-4xl);
+}
+.text-60{
+    font-size: var(--fs-5xl);
+}
+.bg-base{
+    background-color: var(--bs-black);
+}
+.text-green{
+    color: var(--bs-green);
+}
+.bg-green{
+    background-color: var(--bs-green);
+}
+.text-darkblack{
+color: var(--bs-textblack);
+}
+.font-recharge {
+  font-family: "Recharge";
+}
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+.lh-75 {
+  line-height: 50.6px;
+}
+.lh-25 {
+  line-height: 20.6px;
+}
+.lh-21 {
+  line-height: 18.6px;
+}
+.lh-24 {
+  line-height: 24px;
+}
+.lh-50 {
+  line-height: 40.4px;
+}
+.lh-32 {
+  line-height: 24px;
+}
+.lh-51 {
+  line-height: 41.2px;
+}
+.lh-38 {
+  line-height: 28.4px;
+}
+.lh-31 {
+  line-height: 24.2px;
+}
+.lh-52 {
+  line-height: 42px;
+}
+.lh-19 {
+  line-height: 16.2px;
+}
+@media (min-width:576px) {
+  :root{
+     /* font-size */
+  --fs-base: 16px;
+  --fs-lg: 18px;
+  --fs-xl: 20px;
+  --fs-2xl: 24px;
+  --fs-3xl: 32px;
+  --fs-4xl: 40px;
+  --fs-5xl: 60px;
+  }
+  .lh-75 {
+  line-height: 75.6px;
+}
+.lh-25 {
+  line-height: 25.6px;
+}
+.lh-21 {
+  line-height: 21.6px;
+}
+.lh-24 {
+  line-height: 24px;
+}
+.lh-50 {
+  line-height: 50.4px;
+}
+.lh-32 {
+  line-height: 32px;
+}
+.lh-51 {
+  line-height: 51.2px;
+}
+.lh-38 {
+  line-height: 38.4px;
+}
+.lh-31 {
+  line-height: 31.2px;
+}
+.lh-52 {
+  line-height: 52px;
+}
+.lh-19 {
+  line-height: 19.2px;
+}
+}
