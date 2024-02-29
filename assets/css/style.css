@@ -247,7 +247,7 @@ margin-bottom: 40px;
 }
 /* height */
 .h-575 {
-  height: 555px;
+  height: 795px;
 }
 .h-512{
   height: 512px
@@ -335,7 +335,7 @@ margin-bottom: 40px;
   color: var(--bs-green);
   transition: all 300ms linear;
 }
-::-webkit-scrollbar {
+.scroll-hidden::-webkit-scrollbar {
   display: none;
 }
 .slidecard1{
@@ -650,12 +650,15 @@ top: -5%;
     left: 0;
     height: 2px;
     border-radius: 15px;
-    background-color: var(--bs-white);
+    background-color: var(--bs-green);
     bottom: 0px;
     transition: all 300ms linear;
   }
   .hover-opacity-100{
     opacity: 70%;
+  }
+  .nav-menu:hover{
+    color: var(--bs-green) !important;
   }
   .hover-opacity-100:hover{
     opacity: 100%;
@@ -687,7 +690,7 @@ top: -5%;
 }
 @media (min-width:460px) {
   .h-575{
-    height: 590px;
+    height: 700px;
   }
   .list{
     position: relative;
