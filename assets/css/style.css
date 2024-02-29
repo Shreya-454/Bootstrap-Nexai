@@ -390,6 +390,7 @@ transition: all 300ms linear;
   height: 2px;
   background-color: var(--bs-offwhite);
   border-radius: 16px;
+  opacity: 40%;
 }
 .slidercard2{
   width: 340px !important;
