@@ -315,7 +315,7 @@ margin-bottom: 40px;
   transition: all 300ms linear;
 }
 .mycard1:hover{
-  box-shadow: 0px 4px 20px 0px #02CDCF;
+  box-shadow: 0px 4px 20px 0px var(--bs-green);
   transition: all 300ms linear;
 }
 .mycard1:hover p {
@@ -357,7 +357,7 @@ transition: all 300ms linear;
     width: 58px;
     height: 58px;
     border-radius: 100%;
-    box-shadow: 0px 4px 16px 0px #02CDCF99 inset;
+    box-shadow: 0px 4px 16px 0px var(--bs-inner) inset;
 }
 .overflow{
   overflow-x: visible;
@@ -396,8 +396,8 @@ transition: all 300ms linear;
   width: 340px !important;
 height: 220px !important;
 border-radius: 16px;
-box-shadow: 0px 4px 20px 0px #02CDCF29;
-background: #FFFFFF05;
+box-shadow: 0px 4px 20px 0px var(--bs-greenshadow);
+background: var(--bs-light);
 margin-right: 12px;
 margin-left: 12px;
 transition: all 300ms linear;

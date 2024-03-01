@@ -22,6 +22,9 @@
   --bs-cardshadow:#0000001A;
   --bs-white:white;
   --bs-offwhite:#FCFCFC;
+  --bs-inner:#02CDCF99;
+  --bs-greenshadow:#02CDCF29;
+  --bs-light:#FFFFFF05;
 }
 .text-16{
     font-size: var(--fs-base);
